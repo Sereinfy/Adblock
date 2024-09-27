@@ -1,4 +1,4 @@
-name: Update Rules
+name: Update ReadMe
 on: 
   workflow_dispatch:
   schedule:
@@ -13,7 +13,7 @@ jobs:
       - name: Update Title&ReadMe
         run: |
 
-          python ./data/python/clean-readme.py
+          python clean-readme.py
 
       - name: Git push assets to Github
         run: |
