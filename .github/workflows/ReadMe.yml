@@ -15,20 +15,13 @@ jobs:
 
           python clean-readme.py
 
-      - name: Git push assets to Github
-        run: |
-          git init
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git branch -m master
-          git add --all
-          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
-          git push -u origin -f
-
-      - name: Delete workflow runs 
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: ${{ steps.update.outputs.message }}
+          
+      - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
-          retain_days: 0
-          keep_minimum_runs: 0
+          retain_days: 1
+          keep_minimum_runs: 5
