@@ -15,7 +15,7 @@ DNS拦截规则数量: 75956
 1. 定时从上游各规则源获取更新，合并去重。
 2. 使用国内、国外各 3 组 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的域名。（上游各规则源中存在大量已无法解析的域名，无需加入拦截规则）
 3. 本项目仅对上游规则进行合并、去重、去除无效域名，不做任何修改。如发现误拦截情况，可临时添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
-
+4. 手机推荐使用 [halflife-list](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/sbwml/halflife-list/master/ad.txt&title=halflife-list) + [ADgk](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt&title=ADgk) （点击直接导入）
 ## 订阅链接
 1. AdGuard Home 等DNS拦截服务使用规则1
 2. AdGuard 等浏览器插件使用规则1 + 规则2
@@ -51,6 +51,3 @@ DNS拦截规则数量: 75956
 | Nocoin list | host | [原始链接](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/adblockfilters/main/rules/Nocoin_list.txt) | 2024/09/27 |
 | 1024 hosts | host | [原始链接](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/adblockfilters/main/rules/1024_hosts.txt) | 2024/02/15 |
 | ad-wars hosts | host | [原始链接](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/adblockfilters/main/rules/ad-wars_hosts.txt) | 2024/02/15 |
-
-## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=Sereinfy/adblockfilters&type=Date)](https://star-history.com/#Sereinfy/adblockfilters&Date)
