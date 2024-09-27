@@ -3,9 +3,8 @@ import datetime
 import pytz
 
 # 提取规则计数
-num_adblock = subprocess.getoutput("sed -n 's/^! Blocked domains: //p' rules/adblockfilters.txt")
-num_dns = subprocess.getoutput("sed -n 's/^! Blocked Filters: //p' rules/adblockdns.txt")
-
+num_dns = subprocess.getoutput("sed -n 's/^! Blocked domains: //p' ./rules/adblockdns.txt")
+num_adblock = subprocess.getoutput("sed -n 's/^! Blocked Filters: //p' ./rules/adblockfilters.txt")
 
 # 获取当前时间并转换为北京时间
 time = datetime.datetime.now(pytz.timezone('UTC'))
