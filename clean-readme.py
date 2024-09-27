@@ -3,8 +3,8 @@ import datetime
 import pytz
 
 # 提取规则计数
-num_adblock = subprocess.getoutput("sed -n 's/^! Total count: //p' ./rules/adblockfilters.txt")
-num_dns = subprocess.getoutput("sed -n 's/^! Total count: //p' ./rules/adblockdns.txt")
+num_adblock = subprocess.getoutput("sed -n 's/^! Total count: //p' rules/adblockfilters.txt")
+num_dns = subprocess.getoutput("sed -n 's/^! Total count: //p' rules/adblockdns.txt")
 
 
 # 获取当前时间并转换为北京时间
