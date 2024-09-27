@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240927124449
-! Last modified: 2024/09/27 12:44:49
-! Blocked domains: 70879
+! Version: 20240927161303
+! Last modified: 2024/09/27 16:13:03
+! Blocked domains: 70891
 ! unBlocked domains: 54
 !
 ||kwcdn.000dn.com^
@@ -16875,6 +16875,7 @@
 ||caterpillarsigns.coversandall.com.au^
 ||caterpillarsigns.coversandall.eu^
 ||butterfly.coverworld.com.au^
+||covettunica.com^
 ||seniorliving.covia.org^
 ||tr.info.covid-resistance-bretagne.fr^
 ||rodent.covisitor.app^
@@ -27178,6 +27179,7 @@
 ||clnbze.gazetawroclawska.pl^
 ||c.gazetevatan.com^
 ||mtkure.gazin.com.br^
+||gazozfelines.shop^
 ||tr.serviceclient.gazservicerapide.fr^
 ||gazumpers27.fun^
 ||metrics.gazyva.com^
@@ -27847,6 +27849,7 @@
 ||glassmilheart.com^
 ||asp.glasspp119.jp^
 ||glatatsoo.net^
+||glaubsoopsehen.net^
 ||glaubuph.com^
 ||glaultoa.com^
 ||glaurtas.com^
@@ -29151,6 +29154,7 @@
 ||link.guoqi365.com^
 ||ad-specs.guoshipartners.com^
 ||guowaidiaocha.com^
+||gurgehumours.com^
 ||guro2.com^
 ||a8clk.gurutas.jp^
 ||a8clk.guruyaku.jp^
@@ -35507,6 +35511,7 @@
 ||kailsfrot.com^
 ||a8cv.kaimonocart.com^
 ||a8cv.kaimonoform.com^
+||kainitwhip.com^
 ||marketing.kainmcarthur.com^
 ||a.kainpopoy.com^
 ||eloqua-tracking.kaiserpermanente.org^
@@ -37234,6 +37239,7 @@
 ||larbcc.xyz^
 ||lardapplications.com^
 ||lardpersecuteunskilled.com^
+||lardyjeg.com^
 ||soubej.larebajavirtual.com^
 ||nnqyed.laredoute.be^
 ||tagcommander.laredoute.be^
@@ -38475,6 +38481,7 @@
 ||metrics.loblaws.ca^
 ||smetrics.loblaws.ca^
 ||loboclick.com^
+||loboloshetaery.com^
 ||lobsterbusily.com^
 ||smon.loc.gov^
 ||sponsors-v2.locablepublishernetwork.com^
@@ -47853,6 +47860,7 @@
 ||mapp.peacocks.co.uk^
 ||peacockshudder.com^
 ||peacto.com^
+||peagsraters.com^
 ||www.peak-ip-54.com^
 ||abmail.peak.net^
 ||go.peak.net^
@@ -49434,6 +49442,7 @@
 ||poredii.com^
 ||ra.poringa.net^
 ||a.pork.org^
+||porkpielepidin.com^
 ||delivery.porn.com^
 ||hits.porn.fr^
 ||p.porn0hd.online^
@@ -51384,6 +51393,7 @@
 ||qq88bet.net^
 ||www.qqads.com^
 ||a1.qqan.com^
+||qqbqy.com^
 ||qqguvmf.com^
 ||qqhuhu.com^
 ||qqkzjpupluv.com^
@@ -52265,6 +52275,7 @@
 ||tracking.realestate.bnpparibas^
 ||uk.realestate.bnpparibas^
 ||analytics.realestate.com.au^
+||sasinator.realestate.com.au^
 ||smetrics.realestate.com.au^
 ||realevalbs.com^
 ||events.realgravity.com^
@@ -54410,6 +54421,7 @@
 ||secure.said3page.com^
 ||www.said3page.com^
 ||eloqua.saiganeshk.com^
+||saigreetoudi.xyz^
 ||saikeela.net^
 ||sailcovertend.com^
 ||www.sailesi.cn^
