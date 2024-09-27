@@ -1,12 +1,3 @@
-```
-更新时间: 2024-09-27 12:04:07 （北京时间） 
-
-拦截规则数量: 174679 
-DNS拦截规则数量: 75956 
-
-``` 
-
-
 # AdBlock DNS Filters
 适用于AdGuard的去广告合并规则，每8个小时更新一次。
 个人收藏了不少广告过滤规则，但是每次往新设备添加的时候很是头疼，于是写了这个项目，定时自动获取各规则源更新，生成合并规则库。
@@ -16,6 +7,7 @@ DNS拦截规则数量: 75956
 2. 使用国内、国外各 3 组 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的域名。（上游各规则源中存在大量已无法解析的域名，无需加入拦截规则）
 3. 本项目仅对上游规则进行合并、去重、去除无效域名，不做任何修改。如发现误拦截情况，可临时添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
 4. 手机推荐使用 [halflife-list](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/sbwml/halflife-list/master/ad.txt&title=halflife-list) + [ADgk](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt&title=ADgk) （点击直接导入）
+
 ## 订阅链接
 1. AdGuard Home 等DNS拦截服务使用规则1
 2. AdGuard 等浏览器插件使用规则1 + 规则2
@@ -27,9 +19,6 @@ DNS拦截规则数量: 75956
 
 ## 上游规则源
 1. 感谢各位广告过滤规则维护大佬们的辛苦付出。
-2. 不再引用[anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见[Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)。
-3. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。
-4. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)，项目超过 1 年未更新。
 
 | 规则 | 类型 | 原始链接 | 加速链接 | 更新日期 |
 |:-|:-|:-|:-|:-|
