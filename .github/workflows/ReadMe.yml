@@ -14,12 +14,19 @@ jobs:
         run: |
 
           python clean-readme.py
-
-      - name: Commit Changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: ${{ steps.update.outputs.message }}
+          rm -rf __pycache__
+          echo "message=$(date)" >> $GITHUB_OUTPUT
           
+      - name: Git push assets to Github
+        run: |
+          git init
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git branch -m main
+          git add --all
+          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')" -a
+          git push -f -u origin main
+
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@main
         with:
