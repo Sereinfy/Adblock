@@ -2485,6 +2485,7 @@ stern.de#%#//scriptlet('trusted-click-element', '#decline-nid-consent')
 !
 ! NOTE: Regular rules
 !
+gamemaker.io##body > .left-0:has(> form > #manage-cookies)
 ||itvm.pl/wp-content/plugins/pressidium-cookie-consent
 lotusflareinc.applytojob.com###tracking-consent-banner
 t-online.de###spec-cookies
@@ -6044,8 +6045,8 @@ petitions.net,adressit.com,aredaonline.com,atzuma.net,imzakampanyasi.net,onlinep
 petitions.net,adressit.com,aredaonline.com,atzuma.net,imzakampanyasi.net,onlinepeticija.com,opprop.net,peticao.online,petice.com,peticie.com,peticija.online,peticijaonline.com,peticijas.com,peticije.online,peticijeonline.com,peticijos.com,peticiok.com,peticion.es,peticiones.ar,peticiones.cl,peticiones.co,peticiones.mx,peticiones.net,peticiones.pe,peticions.cat,peticiq.com,peticoes.pt,petisionline.com,petitieonline.com,petities.com,petitionen.com,petitionenligne.be,petitionenligne.ch,petitionenligne.com,petitionenligne.fr,petitionenligne.net,petitionenligne.re,petitiononline.uk,petitions.nz,petitsioon.com,petizioni.com,petycjeonline.com,skrivunder.com,skrivunder.net#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 accolade.eu###cookies-component
 komputronik.com##.pr-cookie-policy
-allegro.com,allegro.sk,allegrolokalnie.pl,allegro.cz#$#body { overflow: auto !important; }
-allegro.com,allegro.sk,allegrolokalnie.pl,allegro.cz#$##opbox-gdpr-consents-modal { display: none !important; }
+allegro.hu,allegro.com,allegro.sk,allegrolokalnie.pl,allegro.cz#$#body { overflow: auto !important; }
+allegro.hu,allegro.com,allegro.sk,allegrolokalnie.pl,allegro.cz#$##opbox-gdpr-consents-modal { display: none !important; }
 shareview.jp###div-gdpr
 findmymobile.samsung.com##footer + div.fixed.bottom-0.items-center.p-5.h-fit
 airly.org##.cookie-baner
@@ -20902,7 +20903,7 @@ drive2.ru#?#.js-page > div > div[class="x-box x-box--mh o-f"]:has(> script)
 mail.ru#%#//scriptlet('set-constant', 'Object.prototype.hideTgbAd', '', '', 'asResolved')
 mail.ru##div[slot="main-column"] > div.stripe-wrapper
 ! e.mail.ru
-e.mail.ru,octavius.mail.ru#%#//scriptlet('prevent-setTimeout', 'clearPendingRender')
+e.mail.ru,octavius.mail.ru#%#//scriptlet('set-constant', 'Object.prototype.clearRequests', 'undefined')
 ! dzen.ru
 ! Under the search
 dzen.ru##div:matches-attr("data-*"="ad-banner")
@@ -22513,6 +22514,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+animeworld.*###sidebar > div.widget:has(> div.this-message-does-not-harm-to-you-dont-remove-it)
 trevorlasn.com#?#footer div:has(> div[role="alert"] > div > p:contains(AdBlocker))
 ikorektor.pl#%#//scriptlet('prevent-setTimeout', 'reklamy')
 ||smailpro.com/js/chunks/detect_adblock.js
