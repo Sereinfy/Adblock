@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20241003161255
-! Last modified: 2024/10/03 16:12:55
-! Blocked domains: 53426
+! Version: 20241004001109
+! Last modified: 2024/10/04 00:11:09
+! Blocked domains: 53441
 ! unBlocked domains: 40
 !
 ||kwcdn.000dn.com^
@@ -7718,6 +7718,7 @@
 ||bjafafesg.com^
 ||bjakku.com^
 ||bjappzvz.xyz^
+||bktsauna.com^
 ||blackcurrantinadequacydisgusting.com^
 ||promo.blackdatehookup.com^
 ||qzwbod.blackdiamondequipment.com^
@@ -8083,7 +8084,7 @@
 ||brucelead.com^
 ||bruceleadx.com^
 ||bruceleadx1.com^
-||rm.brucinabowmen.com^
+||brucinabowmen.com^
 ||marketing.brucknertruck.com^
 ||bruisedpaperworkmetre.com^
 ||bruiserbodies.com^
@@ -14779,6 +14780,7 @@
 ||f21ea56300.e16a8cbec4.com^
 ||3459e0cbdc.e1bb62d865.com^
 ||c96ee2ee55.e1fdc63869.com^
+||e1zin.icu^
 ||30c692a17b.e218cdc27d.com^
 ||7cdd9f6208.e2572292c5.com^
 ||e2ertt.com^
@@ -19256,6 +19258,7 @@
 ||ftte.xyz^
 ||fttjyji.com^
 ||ftv-publicite.fr^
+||fucategallied.com^
 ||leech.fuchsegg.at^
 ||a.fuckamouth.com^
 ||banners.fuckbookhookups.com^
@@ -22761,6 +22764,7 @@
 ||rxqqaq.hollandandbarrett.com^
 ||smetricsadobe.hollandandbarrett.com^
 ||smetricsadobe.hollandandbarrett.nl^
+||hollekejokiest.com^
 ||collect.hollisterco.com^
 ||metrics.hollisterco.com^
 ||smetrics.hollisterco.com^
@@ -23289,6 +23293,7 @@
 ||hukogpanbs.com^
 ||phonetrack.hukumkaikka.in^
 ||hulabipptemux.com^
+||huldahflotter.com^
 ||hulocvvma.com^
 ||app.go.hult.edu^
 ||api.distribution.hulu.com^
@@ -26016,6 +26021,7 @@
 ||cv.www.jobcareer.jp^
 ||share.jobeo.net^
 ||joberopolicycr.com^
+||jobetartane.com^
 ||jobfilletfortitude.com^
 ||momyjw.jobninja.com^
 ||jobsonationsing.com^
@@ -32134,6 +32140,7 @@
 ||neropolicycreat.com^
 ||nervegus.com^
 ||nerveheels.com^
+||neryt111.fun^
 ||sorrhs.nescafe.com.tr^
 ||info.nescornow.com^
 ||nesfspublicate.info^
@@ -34193,6 +34200,7 @@
 ||join.opencare.com^
 ||connect.opendoorerp.com^
 ||openerkey.com^
+||openersbens.com^
 ||insights.openfieldx.com^
 ||links.openfit.com^
 ||app.openfolio.com^
@@ -40139,6 +40147,7 @@
 ||rosebudspurarmies.com^
 ||rosemand.pro^
 ||visitping.rossel.be^
+||rosskenyte.click^
 ||fpghll.rossmann.hu^
 ||rotate1t.com^
 ||www.rote8mino.com^
@@ -46819,6 +46828,7 @@
 ||link.touchtunes.com^
 ||link.touchtunesmail.com^
 ||touchyeccentric.com^
+||touchytautogs.com^
 ||cap.touclick.com^
 ||www.touclick.com^
 ||touena.xyz^
@@ -46840,6 +46850,7 @@
 ||ejrbgi.tous.com^
 ||a8cv.toushi-up.com^
 ||adebis.toushi-up.com^
+||toushuhoophis.xyz^
 ||analytics.tout.com^
 ||tr.email.toute-la-franchise.com^
 ||tr.news.toute-la-franchise.com^
@@ -47365,6 +47376,7 @@
 ||promos.trustedtours.com^
 ||trustedzone.info^
 ||marketing.trusteedplans.com^
+||trusteenubian.com^
 ||trusteverything.de^
 ||marketing.trustid.com^
 ||trustmaxonline.com^
@@ -48301,6 +48313,7 @@
 ||unluxioer.com^
 ||app.unlvrebels.com^
 ||t.unlvrebels.com^
+||unmanyabby.com^
 ||unmeltsavaged.click^
 ||unnaturalstring.com^
 ||jdgtgb.unnuetzes.com^
@@ -51336,6 +51349,7 @@
 ||wohpaqjb.com^
 ||wokenoptionalcohabit.com^
 ||wokm8isd4zit.com^
+||wokseephishopty.net^
 ||wolaufie.com^
 ||cdn.wolf-327b.com^
 ||3347.wolf-gordon.com^
@@ -51757,6 +51771,7 @@
 ||wwpush22.com^
 ||wwqssmg.com^
 ||wwunnmshmv.xyz^
+||wwursere.top^
 ||wwvxdhbmlqcgk.xyz^
 ||www.www-path.com^
 ||wwwadcntr.com^
