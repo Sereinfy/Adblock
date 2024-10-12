@@ -45,7 +45,7 @@ class ReadMe(object):
         with open(self.filename, 'a') as f:
             f.write("``` \n")
             f.write("更新时间:\n")
-            f.write("拦截规则数量:\n")
+            f.write("插件拦截规则数量:\n")
             f.write("DNS拦截规则数量:\n")
             f.write("``` \n")
             f.write("适用于AdGuard的去广告合并规则，每8个小时更新一次。\n")
