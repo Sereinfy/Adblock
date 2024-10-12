@@ -3,8 +3,8 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。
 ! Homepage: https://github.com/Sereinfy/Adblock
 ! Source: https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/adblockdns.txt
-! Version: 20241012160214
-! Last modified: 2024/10/12 16:02:14
+! Version: 20241012161059
+! Last modified: 2024/10/12 16:10:59
 ! Blocked domains: 67247
 ! unBlocked domains: 54
 !
