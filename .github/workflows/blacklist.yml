@@ -43,6 +43,13 @@ jobs:
           rm -rf __pycache__
           echo "message=$(date)" >> $GITHUB_OUTPUT
 
+      - name: clean readme
+        id: clean
+        run: |
+          python clean-readme.py
+          rm -rf __pycache__
+          echo "message=$(date)" >> $GITHUB_OUTPUT
+          
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
