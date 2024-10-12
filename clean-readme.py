@@ -12,7 +12,7 @@ beijing_time = time.astimezone(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%
 
 # 用提取的规则计数和当前时间更新README.md
 subprocess.run(f"sed -i 's/^更新时间:.*/更新时间: {beijing_time} （北京时间） /g' README.md", shell=True)
-subprocess.run(f"sed -i 's/^拦截规则数量.*/拦截规则数量: {num_adblock} /g' README.md", shell=True)
+subprocess.run(f"sed -i 's/^插件拦截规则数量.*/插件拦截规则数量: {num_adblock} /g' README.md", shell=True)
 subprocess.run(f"sed -i 's/^DNS拦截规则数量.*/DNS拦截规则数量: {num_dns} /g' README.md", shell=True)
 
 print("已成功更新README.md中的规则计数和时间")
