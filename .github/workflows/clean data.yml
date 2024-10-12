@@ -4,23 +4,11 @@ on:
   schedule:
   - cron: 0 2 * * *
 
-env:
-  TZ: Asia/Shanghai
-  SMARTDNS_URL: https://github.com/pymumu/smartdns/releases/download/Release45/smartdns-x86_64
-  SMARTDNS_PATH: /tmp/smartdns
-
 jobs:
-  Generate_Blacklist:
+  update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@main
-
-      - name: Setup Python 3.9.x
-        uses: actions/setup-python@main
-        with:
-          python-version: '3.9.x'
+      - uses: actions/checkout@v4
 
       - name: clean data
         id: update
