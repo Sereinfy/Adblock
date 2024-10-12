@@ -1,8 +1,8 @@
-name: Generate Blacklist
+name: clean data
 on: 
   workflow_dispatch:
   schedule:
-  - cron: 0 1 * * *
+  - cron: 0 2 * * *
 
 env:
   TZ: Asia/Shanghai
