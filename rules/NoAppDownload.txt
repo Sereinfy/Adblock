@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20241007001
+! Version: 20241016001
 ! Title: NoAppDownload
-! Last modified: 2024/10/07 12:00:00 +0800
+! Last modified: 2024/10/16 15:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -194,13 +194,6 @@ jianshu.com##div[aria-label="抽奖关闭"]
 jianshu.com##._27yofX
 jianshu.com##._13lIbp
 jianshu.com##div._1pUUKr:nth-of-type(3)
-
-! ---jikipedia---
-jikipedia.com##.cursor.download-img
-jikipedia.com##[href="/app"]
-jikipedia.com##.download-link
-jikipedia.com##.components-container
-jikipedia.com##.cursor.link.app-link
 
 ! ---juejin---
 juejin.cn##.recommend-box
@@ -636,13 +629,6 @@ m.douban.com#?#div:matches-css(width:68px)
 ! ---douyu---
 m.douyu.com##div[class*="OpenAppBtn"]
 
-! ---egame.qq.com---
-m.egame.qq.com###installbar
-m.egame.qq.com###gcOfficialWidgetWrapper
-m.egame.qq.com##.widget-wrapper
-m.egame.qq.com###installGameBar
-m.egame.qq.com##.ui-border-b.ui-tab-nav > li:nth-of-type(4)
-
 ! ---gamersky---
 wap.gamersky.com##.countHitSql.countHit.gsTgAppConCommentBtn
 wap.gamersky.com##.gsTgWapConBdshareTopBox
@@ -692,6 +678,8 @@ ishare.ifeng.com##div[class^="more_box"]
 ishare.ifeng.com##section[class^="allLook"]
 ishare.ifeng.com##section[class^="bottom"]
 ishare.ifeng.com##section[class^="relateVideo"]
+v.ifeng.com##div[class^="index_container"]
+v.ifeng.com##section[class^="index_hot"]
 
 ! --iqiyi---
 iqiyi.com##.m-iqyGuide-layer
@@ -897,7 +885,7 @@ tieba.baidu.com##.feed-cut
 tieba.baidu.com##.hot-recommend-title.recommend-title
 tieba.baidu.com##.img-open-app
 tieba.baidu.com##.load-more.wake-app
-tieba.baidu.com##.more-btn-desc
+tieba.baidu.com##.more-btn-desc:contains(打开APP)
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.open-app-guide

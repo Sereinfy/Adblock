@@ -1306,6 +1306,9 @@ $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.
 !
 !
 !
+||cdn.xiuting.cc/js/go016.js
+xiuting.cc#$##chaptercontent { filter: unset !important; }
+zombit.info###single-popup
 pttweb.cc##.e7-min-ad-height
 news.pchome.com.tw##div[style="width:970px;height:250px"]
 news.pchome.com.tw##div[style="width:300px;height:450px"]
@@ -1501,8 +1504,9 @@ nodejs.cn###pagead
 gvm.com.tw##.promotion_ad
 gvm.com.tw##.promotion > .sp-txt
 huya.com##.room-sidebar #public-screen-ab
+vidhub.me,vidhub.tv##.adwap
 vidhub.me,vidhub.tv##.promolnk
-vidhub.me,vidhub.tv##.promote-link
+vidhub.me,vidhub.tv##.promotelink
 technews.tw##.inside_AD
 tw100s.com##div[class="ui_adblock"]
 heho.com.tw##div[id^="heho-ml-"]
@@ -2895,6 +2899,8 @@ csdn.net###footerRightAds
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
 ||mycodes.net/js/*.js
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190832
+hanime1.me#%#//scriptlet("trusted-replace-node-text", "script", "popunder", "/window\.open\('(.*?)',.*?\);\n.*location.href = '.*';/", "location.assign('$1');")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189389
 ! aglint-disable-next-line invalid-modifiers
 .gif|$domain=/87[0-9]{2}ck\.cc/
@@ -3369,6 +3375,7 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
+/ad_display.php?ad_pos=
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
@@ -5057,7 +5064,6 @@ newduba.cn###jq_youxi
 ##DIV[style=" max-width:990px; margin:0 auto;"] > A > IMG[height="60px"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##td[id^="td_"] > a[href^="/htmm/"]
-##vg-pause-d
 ##a[href*="/122.51.121.126:"]
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
@@ -5075,11 +5081,61 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||cggyyi.xyz^
+||qdoeki.xyz^
+||etroytj33.fun^
+||thrzbf.xyz^
+||ioykmxa.icu^
+||abixkw.xyz^
+||erqtga.xyz^
+||wkabios.icu^
+||opkmio.xyz^
+||pviasld.icu^
+||lxpbdp.xyz^
+||qtroytj33.fun^
+||juresda.top^
+||wtroytj33.fun^
+||sslir.icu^
+||kuresdd.top^
+||evkzqs.xyz^
+||hwymoyv.icu^
+||kyyfsw.xyz^
+||cdmyeg.xyz^
+||4bfx0u.com^
+||qebgcdcjr000.fun^
+||lnnahh.xyz^
+||wcsmvmf.icu^
+||huresdu.top^
+||2rbda.icu^
+||iuresdo.top^
+||dktad.com^
+||sjmlmk.xyz^
+||ymauoo.xyz^
+||jpwsuix.icu^
+||myfenxi.com^
+||ddlzlr.xyz^
+||qeogcdcjr000.fun^
+||qronay.xyz^
+||hthvc.icu^
+||curesdf.top^
+||qekgcdcjr000.fun^
+||mm1qj.icu^
+||mamjkg.xyz^
+||lbqdaua.icu^
+||vtjbnb.xyz^
+||gxoaku.xyz^
+||esqzwq.xyz^
+||klmohbk.icu^
+||qeugcdcjr000.fun^
+||bieuc.icu^
 ||sbovgy.xyz^
 ||myqmgm.xyz^
 ||sgsosi.xyz^
 ||rnwenpn.icu^
 ||vjharl.xyz^
+||wnojded.icu^
+||xadulxs.cn^
+||4q87v.icu^
 ||amsbce.xyz^
 ||ygipjqf.icu^
 ||gpqkeq.xyz^
@@ -13834,6 +13890,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||mydyxs.com/mpc/
 szxx.com.cn###A0
+vidhub.me,vidhub.tv##.promotelink
 6parknews.com##div[style="width:990px;height:140px;margin-left:auto;margin-right:auto;text-align:center;"]
 element-plus.org##.page-sidebar-top
 wenxuecity.com##div[id*="gg_"]
@@ -21385,6 +21442,8 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.com/down/copy
 ||taobao.com^$popup,domain=dlkoo.com
 !#Dnvod.tv
+##.dabf > .ng-star-inserted
+##vg-pause-f
 ##vg-pause-ads
 @@/ads.js$domain=iyf.tv
 ||dnvodcdn.me/fast/*.mp4
@@ -21525,9 +21584,10 @@ smjb.net##div[style*="height: 50%"]
 ||ysxs8.vip/js/play_db.js
 ||zanghaihua.org/js/
 ||zhenben.cc/2000/
+.*gcdcjr000.fun/$script,third-party
+.hongi7ie8owiie*.site^$script,third-party
 .baigh8eosmgie*.site^$script,third-party
-://*.*fgcdcjr000.fun/$script,third-party
-://*.*ryt111.fun/$script,third-party
+.*ryt111.fun/$script,third-party
 ###downdiv > .downcode
 ###gudingweiDiv
 ###my_dp_a
