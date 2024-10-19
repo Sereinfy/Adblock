@@ -2491,6 +2491,7 @@ stern.de#%#//scriptlet('trusted-click-element', '#decline-nid-consent')
 !
 deriv.com##.cookies_background-wrapper
 elke.uoc.gr###cookie-bubble
+polar.sh#%#//scriptlet('set-local-storage-item', 'cookie_consent', 'no')
 flysurf.com#%#//scriptlet('trusted-set-cookie', 'tarteaucitron', '!googletagmanager=false')
 berger.mitarbeiter-werden.com##.block-interaction__overlay
 scaleway.com#%#//scriptlet('trusted-set-cookie', '_scw_rgpd_hash', '1813808441')
@@ -21285,6 +21286,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.Sid
 !#safari_cb_affinity
 !
 ! Add without $third-party, so apps are blocking them too
+||startercost.com^
 ||shydinosaurs.com^
 ||stretchsquirrel.com^
 ||badgerabbit.com^
