@@ -132,7 +132,7 @@
 ##.gdpr-banner
 ##.cc-floating
 ###cerez-politikasi
-##.orejime-Notice
+##body:not(.orejimeBody-WithModalOpen) div.orejime-Notice
 ##div[data-cy="cookie-banner"]
 ##.u-cookies-consent
 ###consent-banner-overlay
@@ -2489,6 +2489,9 @@ stern.de#%#//scriptlet('trusted-click-element', '#decline-nid-consent')
 !
 ! NOTE: Regular rules
 !
+developer.nintendo.com#$#.cookie-overlay { display: none !important; }
+developer.nintendo.com#%#//scriptlet('abort-current-inline-script', '$', 'trackEssentialCookie')
+ksiegralnia.pl#%#//scriptlet('set-local-storage-item', 'consents.show_consent_modal', '1')
 ci.chromium.org###cookie-consent-prompt
 deriv.com##.cookies_background-wrapper
 elke.uoc.gr###cookie-bubble
@@ -13534,7 +13537,7 @@ arbeitsagentur.de##.ba-banner-disclaimer
 my.kaspersky.com##.banner-type-cookiePolicyFixed
 nivea.*,niveausa.com##.nx-cookie-policy-popup
 artox-media.ru##.c-cookie--disclaimer
-plarium.com##.c-cookie-notification
+hsbc.co.jp,plarium.com##.c-cookie-notification
 mein-glueck.de##.c-cookiesBox
 mirror.co.uk##.captify-widget
 gsp.ro##.center-gdpr
@@ -16384,6 +16387,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/191267
+developer.nintendo.com#@#.cookie-overlay:not(html):not(body)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191089
 flysurf.com#@##tarteaucitronRoot
 flysurf.com#@##tarteaucitronAlertBig
@@ -16486,8 +16491,6 @@ szaniteronline.hu#@#.cookie-alert
 @@||sdk.privacy-center.org/sdk/*/modern/*.*.js$domain=nicematin.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187592
 konyhatizezercikk.hu#@##cookieModal
-! https://github.com/AdguardTeam/AdguardFilters/issues/187707
-ccifp.pl,ccifrance-international.org#@#.orejime-Notice
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187698
 @@||consent.cookiebot.eu/uc.js$domain=mullerpolska.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187509
@@ -16679,8 +16682,6 @@ fotogena.de#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183827
 isybank.com#@#.cookie-modal
 isybank.com#@##cookieModal
-! https://github.com/AdguardTeam/AdguardFilters/issues/183775
-neomouv.com#@#.orejime-Notice
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183715
 piceramic.com#@#.cc-window[aria-label="cookieconsent"]
 piceramic.com#@#.cc-floating
@@ -22592,6 +22593,10 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! Do not forget about '!#safari_cb_affinity' section for exclusions:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#general
 !
+chronicle.com#%#//scriptlet('set-attr', 'chron-head#chron-head-data:not([data-slc-name])', 'data-slc-name', 'true')
+chronicle.com#%#//scriptlet('remove-attr', 'hidden', '.ArticlePage-articleContainer > .ArticlePage-articleBody.contentBody')
+chronicle.com#$#.ArticlePage-articleContainer > .ArticlePage-articleBody.contentBody { display: block !important; visibility: visible !important; opacity: 1 !important; height: auto !important; }
+chronicle.com#$?#.ArticlePage-articleContainer > .ArticlePage-articleBody:has(> #cdp-summary-notification:has(> p:contains(This is most likely due to a content blocker))) { display: none !important; }
 regex101.com#%#//scriptlet('prevent-fetch', 'srv.buysellads.com')
 regex101.com#%#//scriptlet('prevent-element-src-loading', 'script', 'srv.buysellads.com')
 regex101.com#%#//scriptlet('prevent-setTimeout', 'new Error("JSONP request to')
@@ -31344,7 +31349,7 @@ infobus.pl###popup_i
 materikelas.com###sidebar > #text-7 #box-message
 crazymailing.com##.fb_block
 evhayat.com,thejewishvoice.com,proiezionidiborsa.it###snppopup-exit
-odishabytes.com,campaigntr.com,ogrenio.com,derstarih.com,justnerd.it##.more-stories
+1voice.gr,odishabytes.com,campaigntr.com,ogrenio.com,derstarih.com,justnerd.it##.more-stories
 glavbukh.ru#$#body { overflow: visible!important; }
 glavbukh.ru#$#div[class^="GbShadow"] { display: none!important; }
 generacionretro.net###makingdifferentpopup
@@ -33945,6 +33950,8 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 !
 ! SECTION: Subscriptions - Regular rules
 !
+1voice.gr##.footer-widgets
+chronicle.com##.ArticlePage-aside-content > .SignupModule
 ||img.etimg.com/photo/msid-111576466/whatsapp-banner.jpg
 montanafreepress.org##.has-dark-gray-background-color.has-background
 press.pl##.pressletter
@@ -41315,6 +41322,7 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 !
 !
 !
+proton.me##div[aria-labelledby="mobile-banner-title"]
 chatgpt.com##div[class^="lg"]:has(> div.mx-auto > div.block > div.relative > div.mb-2 > div.flex > div.flex-row > svg[height="62"][width="62"])
 meteoprog.com###app-popup
 dzen.ru##.news-advert-column
@@ -50639,6 +50647,10 @@ banki.ru##div[data-test="news-all-markdown"] > section > a[href^="https://www.ba
 !
 ! SECTION: Self-promo - Regular rules
 !
+jaomix.ru##.adblock-service
+metaratings.ru#$##main-header > div.mainHeaderSubs { display: none !important; }
+metaratings.ru#%#//scriptlet('remove-class', 'hasHeaderPromoMenu', 'main')
+metaratings.ru#$#aside[class^="Announce_announceBar"] { --announce-top-indent: 0 !important; }
 rawkuma.com##.kln > a > img
 skillbox.ru##.js-article-banner
 infoq.com###infoq section.promo
@@ -55129,6 +55141,7 @@ t24.com.tr#%#//scriptlet('set-constant', 'Object.prototype.autoplay', '0')
 /wp-content/plugins/disable-right-click/*
 /wp-content/plugins/right-click-disable-orignal/*
 !
+||gazetasp.com.br/application/themes/gazetasp.com.br/js/noticia.js
 ||klmanga.app/js/script.js
 ||mangarawjp.tv/js/script.js
 ||mantan-web.jp/assets/js/no_contextmenu.js
@@ -57659,6 +57672,7 @@ faz.net#?#.ctn-PlaceholderContent:has(> .ctn-GDPR)
 !
 !   NOTE: Vacancy/job widgets
 !
+||nofluffjobs.com^$third-party
 ||cp-jobmacha-servicemacha-widgets.*.aliyuncs.com/chinapress-jobads-prod.js
 ||ziprecruiter.com/jobs-widget/$third-party
 ||cvmarket.lv/infoblocks/$third-party
