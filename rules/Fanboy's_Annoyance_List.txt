@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202410222203
+! Version: 202410230733
 ! Title: Fanboy's Social Blocking List
-! Last modified: 22 Oct 2024 22:03 UTC
+! Last modified: 23 Oct 2024 07:33 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -11019,6 +11019,7 @@ alchetron.com##.alchetronShareCard
 cbn.com##.analytics-cta
 ttgmedia.com##.ao-sbcontent
 asiaone.com##.ao-share-buttons
+chargedevs.com##.apss-social-share
 calcalistech.com##.art-action-wrp
 lifesitenews.com##.art-share-nav
 firstpost.com##.art-soc-icons
@@ -12039,6 +12040,7 @@ ogbongeblog.com##.wp-block-jetpack-send-a-message
 hyperallergic.com##.wp-block-jetpack-sharing-buttons
 theonion.com##.wp-block-outermost-social-sharing
 techcrunch.com##.wp-block-techcrunch-social-share
+securityweek.com##.wp-social-link
 cnbdaily.com##.wpjankari-social-wrapper
 budgetbytes.com,butterwithasideofbread.com,handletheheat.com,therecipecritic.com##.wprm-call-to-action
 thecookierookie.com##.wprm-social
@@ -12055,8 +12057,11 @@ news.am##.youtube-subscriber
 firstpost.com##.yt-ch
 application-remuneratrice.com##.zd-social
 wdwmagic.com##.zocial
+securityweek.com##.zox-post-soc-list
 retbit.com##.zox-post-soc-scroll-out
 retbit.com##.zox-post-soc-stat
+securityweek.com##.zox-post-soc-top-wrap
+securityweek.com##.zox-top-soc-wrap
 breakingnews.ie##[aria-label="Facebook"]
 breakingnews.ie##[aria-label="Instagram"]
 sfgate.com##[aria-label="Share from Email"]
