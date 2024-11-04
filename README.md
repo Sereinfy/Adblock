@@ -1,7 +1,7 @@
 ``` 
-更新时间: 2024-11-04 08:45:53 （北京时间） 
-插件拦截规则数量: 175303 
-DNS拦截规则数量: 72177 
+更新时间: 2024-11-04 16:13:27 （北京时间） 
+插件拦截规则数量: 175244 
+DNS拦截规则数量: 27388 
 ``` 
 适用于AdGuard的去广告合并规则，每8个小时更新一次。
 个人收藏了不少广告过滤规则，但是每次往新设备添加的时候很是头疼，于是写了这个项目，定时自动获取各规则源更新，生成合并规则库。
@@ -35,7 +35,7 @@ DNS拦截规则数量: 72177
 | CJX's Annoyance List | filter | [原始链接](https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/CJX's_Annoyance_List.txt) | 2024/09/27 |
 | NoAppDownload | filter | [原始链接](https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/NoAppDownload.txt) | 2024/10/19 |
 | Adblock Warning Removal List | filter | [原始链接](https://easylist-downloads.adblockplus.org/antiAdblock.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/Adblock_Warning_Removal_List.txt) | 2024/09/27 |
-| damengzhu | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/damengzhu.txt) | 2024/11/03 |
+| damengzhu | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/damengzhu.txt) | 2024/11/04 |
 | xinggsf mv | filter | [原始链接](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/xinggsf_mv.txt) | 2024/10/29 |
 | xinggsf rule | filter | [原始链接](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/xinggsf_rule.txt) | 2024/11/02 |
 | SmartTV Blocklist | dns | [原始链接](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt) | [加速链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/SmartTV_Blocklist.txt) | 2024/02/15 |
