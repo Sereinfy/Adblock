@@ -1,6 +1,24 @@
 import subprocess
 import datetime
 import pytz
+import os
+import requests
+ # 获取上游白名单
+url = "https://raw.githubusercontent.com/217heidai/adblockfilters/refs/heads/main/rules/white.txt"  # 要下载的文本文件的 URL
+folder_name = "rules"
+
+if not os.path.exists(folder_name):
+    os.makedirs(folder_name)
+
+response = requests.get(url)
+
+if response.status_code == 200:
+    file_path = os.path.join(folder_name, "downloaded_text.txt")
+    with open(file_path, "wb") as f:
+        f.write(response.content)
+    print(f"文件下载成功，保存在 {file_path}。")
+else:
+    print(f"下载失败，状态码：{response.status_code}")
 
 # 提取规则计数
 num_dns = subprocess.getoutput("sed -n 's/^! Blocked domains: //p' ./rules/adblockdns.txt")
