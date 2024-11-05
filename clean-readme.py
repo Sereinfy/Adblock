@@ -13,7 +13,7 @@ if not os.path.exists(folder_name):
 response = requests.get(url)
 
 if response.status_code == 200:
-    file_path = os.path.join(folder_name, "downloaded_text.txt")
+    file_path = os.path.join(folder_name, "white.txt")
     with open(file_path, "wb") as f:
         f.write(response.content)
     print(f"文件下载成功，保存在 {file_path}。")
