@@ -25,7 +25,11 @@ jobs:
           python adblock.py
           rm -rf __pycache__
           echo "message=$(date)" >> $GITHUB_OUTPUT
-
+      - name: Update clash
+        run: |
+          python clash.py
+          rm -rf __pycache__
+          echo "message=$(date)" >> $GITHUB_OUTPUT
       - name: clean data
         run: |
           python clean-readme.py
