@@ -35,7 +35,7 @@ def main():
         converted_lines.insert(0, "payload:\n")
     
     # 将转换后的数据写入新的文件或覆盖原文件
-    write_file('clash.yaml', converted_lines)
+    write_file('rules/dns_clash.yaml', converted_lines)
     
     print("转换完成，结果已保存至 converted_1.txt")
 
