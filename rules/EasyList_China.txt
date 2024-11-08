@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ueesd7ZoBHCQpI6ojZ9BZg
-! Version: 202411071601
+! Checksum: mKgyRUpzvWBxsW6tMR2LKw
+! Version: 202411080031
 ! Title: EasyList China
-! Last modified: 07 Nov 2024 16:01 UTC
+! Last modified: 08 Nov 2024 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1733,6 +1733,11 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||dhukul.com^
+||reisyxy.icu^
+||yrarhzuq.xyz^
+||sugilip.cn^
+||trpyceq.cn^
 ||tyaduqq.icu^
 ||gftefmt.icu^
 ||ygoibya.icu^
@@ -1743,6 +1748,7 @@ newduba.cn###jq_youxi
 ||cruhut.com^
 ||scoldak.com^
 ||dkasffredf.xyz^
+||qnvwjpr.icu^
 ||stragmik.com^
 ||yxrmbjw.icu^
 ||gnyuhzd.icu^
@@ -6380,6 +6386,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zz
 /banner/*$domain=leiphone.com
 /biz_icon/*$domain=cs090.com|wm090.com
 /cuid/*$domain=colamanga.com
+/vmind.qqvideo.tc.qq.com^
 /EZ-YAHOO/*$domain=ezvivi.com
 /fake_app.mp4$domain=91porn.com
 /gamer/*$subdocument,domain=gamer.com.tw
@@ -10745,6 +10752,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ibaotu.com/revision/js/ad/
 ||51miz.com/index.php?m=Ad&
 ||wxc.cc/scripts/gg.
+||xmcdn.com/storages/97b8-customerservice/E7/5E/GKwRIJILApO8AALGLwMrioMa.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 nodeloc.com###wghtml
