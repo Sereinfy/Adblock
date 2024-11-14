@@ -5,7 +5,7 @@ with open('rules/black.txt', 'r') as file:
     line_count = sum(1 for _ in file)
 
 # 检查 readme/line.txt 文件是否存在，如果不存在则创建
-line_file_path = 'readme/line.txt'
+line_file_path = 'line.txt'
 
 # 如果文件不存在，则创建并写入行数
 if not os.path.exists(line_file_path):
