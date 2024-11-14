@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。
 ! Homepage: https://github.com/Sereinfy/Adblock
 ! Source: https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/adblockdns.txt
-! Version: 20241114161309
-! Last modified: 2024/11/14 16:13:09
-! Blocked domains: 69704
+! Version: 20241115001154
+! Last modified: 2024/11/15 00:11:54
+! Blocked domains: 69712
 ! unBlocked domains: 53
 !
 ||kwcdn.000dn.com^
@@ -2639,6 +2639,7 @@
 ||absentlybiddingleopard.com^
 ||absentlygratefulcamomile.com^
 ||absentlyrindbulk.com^
+||absentmissingaccept.com^
 ||abservinean.com^
 ||abskursin.com^
 ||abslroan.com^
@@ -11841,6 +11842,7 @@
 ||a8.buvlabo.com^
 ||secure.bux1le001.com^
 ||www.bux1le001.com^
+||buxfmookn.com^
 ||buxfznnf.xyz^
 ||a8clk.buy-master.com^
 ||buyadvupfor24.com^
@@ -27292,6 +27294,7 @@
 ||gloumsee.net^
 ||gloumsie.net^
 ||glouseer.net^
+||glousoonomsy.xyz^
 ||gloustoa.net^
 ||gloutanacard.com^
 ||gloutchi.com^
@@ -34625,6 +34628,7 @@
 ||iwmjsk.jw.com.au^
 ||target.jwatch.org^
 ||jwddpvu.cn^
+||jweisia.top^
 ||aozmpm.jwell.com^
 ||jwhjqjfl.icu^
 ||jwia0.top^
@@ -46066,6 +46070,7 @@
 ||stat.outrigger.com^
 ||outrotomr.com^
 ||outseeltor.com^
+||outseethoozet.net^
 ||outsetnormalwaited.com^
 ||outseylor.com^
 ||outsimiseara.com^
@@ -52374,6 +52379,7 @@
 ||wpc.32df9.rhocdn.net^
 ||rhombicsomeday.com^
 ||rhouseoyopers.info^
+||rhoxbneasg.xyz^
 ||rhrim.com^
 ||rhsorga.com^
 ||235.rhsy174op.com^
@@ -63072,6 +63078,7 @@
 ||umqmxawxnrcp.com^
 ||app.griztix.umt.edu^
 ||t.griztix.umt.edu^
+||umtchdhkrx.com^
 ||app.umterps.com^
 ||t.umterps.com^
 ||umtudo.com^
@@ -65169,6 +65176,7 @@
 ||vns8ujm.com^
 ||vns8yhn.com^
 ||vnte9urn.click^
+||vnuuh.icu^
 ||impala.vnv.nl^
 ||vnvmif.cn^
 ||tr.mail.vo3000.com^
