@@ -2,9 +2,13 @@
 with open('rules/black.txt', 'r') as file:
     line_count = sum(1 for _ in file)
 
-# 读取3.txt的第一行并进行判断
-with open('readme/line.txt', 'r') as file:
-    first_line = file.readline().strip()
+# 检查3.txt文件是否存在，如果不存在则创建
+try:
+    with open('readme/line.txt', 'r') as file:
+        first_line = file.readline().strip()
+except FileNotFoundError:
+    # 如果文件不存在，直接返回一个空字符串
+    first_line = ""
 
 # 如果3.txt的第一行不是行数，才追加
 if first_line != str(line_count):
