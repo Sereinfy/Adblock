@@ -8,31 +8,33 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  Update_Filters:
+  update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@main
-
-      - name: Setup Python 3.9.x
-        uses: actions/setup-python@main
-        with:
-          python-version: '3.9.x'
+      - uses: actions/checkout@v4
 
       - name: Install Dependencies
         run: |
           sudo timedatectl set-timezone "$TZ"
           python -m pip install --upgrade pip
           pip install -U tld IPy dnspython httpx loguru
-
       - name: Update Filters
         id: update
         run: |
           python adblock.py
           rm -rf __pycache__
           echo "message=$(date)" >> $GITHUB_OUTPUT
-
+      - name: Update clash
+        run: |
+          python clash.py
+          rm -rf __pycache__
+          echo "message=$(date)" >> $GITHUB_OUTPUT
+      - name: clean data
+        run: |
+          python clean-readme.py
+          rm -rf __pycache__
+          echo "message=$(date)" >> $GITHUB_OUTPUT
+          
       - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
