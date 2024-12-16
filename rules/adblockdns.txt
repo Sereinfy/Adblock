@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。
 ! Homepage: https://github.com/Sereinfy/Adblock
 ! Source: https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/adblockdns.txt
-! Version: 20241216161449
-! Last modified: 2024/12/16 16:14:49
-! Blocked domains: 72070
+! Version: 20241217001248
+! Last modified: 2024/12/17 00:12:48
+! Blocked domains: 72097
 ! unBlocked domains: 52
 !
 ||t.0000o.xyz^
@@ -587,6 +587,7 @@
 ||2cnt.net^
 ||2cvnmbxnc.com^
 ||2d283cecd5.com^
+||2d5ac65613.com^
 ||1dc651d70c.2d5c3a63b2.com^
 ||2d6g0ag5l.de^
 ||f7ae2f1035.2defeeb8b2.com^
@@ -1765,6 +1766,7 @@
 ||6cyfvvs.com^
 ||www.6dad.com^
 ||54e4e31106.6e10268cd2.com^
+||6e6cd153a6.com^
 ||1f22732747.6ec5c9fcec.com^
 ||33a81b5b91.6ec7e42994.com^
 ||32dcfb89c9.6ee4d8e440.com^
@@ -11732,6 +11734,7 @@
 ||tracking.link.boone.health^
 ||images.service.boonedam.co.uk^
 ||booseed.com^
+||booshoatoocotez.net^
 ||boost-next.co.jp^
 ||boostaubeehy.net^
 ||boostclic.com^
@@ -14917,6 +14920,7 @@
 ||ijogkae.churchserviceplanner.co.uk^
 ||churchyardalludeaccumulate.com^
 ||churci.com^
+||chussuth.com^
 ||analytics.chvnoticias.cl^
 ||sanalytics.chvnoticias.cl^
 ||kidsdeservethebest.chw.org^
@@ -16101,6 +16105,7 @@
 ||comeplums.com^
 ||mmulsx.comet.it^
 ||cometadministration.com^
+||cometappetit.shop^
 ||t.cometlytrack.com^
 ||cometothepointaton.info^
 ||comettypes.com^
@@ -17166,6 +17171,7 @@
 ||cr08.biz^
 ||cr09.biz^
 ||crabbychin.com^
+||crabletfrijole.shop^
 ||crackbroadcasting.com^
 ||omn.crackle.com^
 ||omns.crackle.com^
@@ -19226,6 +19232,7 @@
 ||db033pq6bj64g.cloudfront.net^
 ||db20da1532.com^
 ||f2fcd50c02.db2a85c464.com^
+||db33180b93.com^
 ||32d3db0610.db35b0c4c1.com^
 ||db4zl9wffwnmb.cloudfront.net^
 ||db72c26349.com^
@@ -19519,6 +19526,7 @@
 ||static.degpeg.com^
 ||degradationrethink.com^
 ||degradationtransaction.com^
+||degradeaccusationshrink.com^
 ||degradeexpedient.com^
 ||to.degree.plus^
 ||degreebristlesaved.com^
@@ -20356,6 +20364,7 @@
 ||diningprefixmyself.com^
 ||diningsovereign.com^
 ||stdown.dinju.com^
+||dinkeysosmetic.shop^
 ||dinnercreekawkward.com^
 ||dinnerquartz.com^
 ||dl.dinngo.co^
@@ -23889,6 +23898,7 @@
 ||especiallyspawn.com^
 ||espionagegardenerthicket.com^
 ||espionageomissionrobe.com^
+||espleestrick.com^
 ||tr.espmp-agfr.net^
 ||tr.aasi.espmp-agfr.net^
 ||tr.alex.espmp-agfr.net^
@@ -25016,6 +25026,7 @@
 ||fafmimgubcm.com^
 ||faggapmunost.com^
 ||hj.faggotbovidae.com^
+||faggotstagily.shop^
 ||faggrim.com^
 ||fagovwnavab.com^
 ||st.fahrkartenshop2-bahn.de^
@@ -30984,6 +30995,7 @@
 ||hewomenentail.com^
 ||hewonderfulst.info^
 ||hexagon-analytics.com^
+||hexinemicerun.top^
 ||hexitolsafely.top^
 ||utrack.hexun.com^
 ||i1i.heyaiii111iidsfsdbfjb132222ffco.xyz^
@@ -38106,6 +38118,7 @@
 ||gazelle.laurenagray.com^
 ||takqyi.laurenhi.jp^
 ||laustiboo.com^
+||laustoowagosha.net^
 ||images.lauthorities.com^
 ||lavatorydownybasket.com^
 ||lavatoryhitschoolmaster.com^
@@ -42962,6 +42975,7 @@
 ||motu-teamblue.services^
 ||www3.motumb2b.com^
 ||motuopj.cn^
+||moumaiphuch.net^
 ||smetrics.mounjaro.com^
 ||dx.mountain.com^
 ||px.mountain.com^
@@ -43441,6 +43455,7 @@
 ||ma.mvr.se^
 ||go.mvtec.com^
 ||mvujvxc.com^
+||mvwitz.xyz^
 ||ma.mw-ind.com^
 ||go.mwe.com^
 ||tracking.mwe.com^
@@ -45236,6 +45251,7 @@
 ||nlvgxr.xyz^
 ||lp.northwestern.nm.org^
 ||web.northwestern.nm.org^
+||nm2.icu^
 ||nmanateex.top^
 ||nmcdn.us^
 ||nmersju.com^
@@ -46416,6 +46432,7 @@
 ||ogfga.net^
 ||ogfna.net^
 ||ogghpaoxwv.com^
+||oghgrazubafz.com^
 ||oghqvffmnt.com^
 ||oghyz.click^
 ||ogicatius.com^
@@ -49566,6 +49583,7 @@
 ||analytics.pipelife.si^
 ||pipeofferear.com^
 ||pipeschannels.com^
+||pipilimagine.shop^
 ||otrnww.pipingrock.com^
 ||s1.pipishu.com^
 ||pipiska221net.shop^
@@ -49586,6 +49604,7 @@
 ||media.pirtek.nl^
 ||metrics.pisces-penton.com^
 ||pisehiation.shop^
+||pisgahserve.com^
 ||pishespied.top^
 ||bcigeg.pishposhbaby.com^
 ||pisism.com^
@@ -51336,6 +51355,7 @@
 ||get.pslove.com^
 ||get.pslove.dev^
 ||psma02.com^
+||psndhfrga.com^
 ||slview.psne.jp^
 ||psoabojaksou.net^
 ||psoacickoots.net^
@@ -54353,6 +54373,7 @@
 ||m.rifird.com^
 ||rifjhukaqoh.com^
 ||rifjynxoj-k.vip^
+||riflepicked.com^
 ||riflesurfing.xyz^
 ||links.riftapp.co^
 ||riftharp.com^
@@ -62677,6 +62698,7 @@
 ||a8.thg.co.jp^
 ||thickcultivation.com^
 ||thickshortwage.com^
+||thickspaghetti.com^
 ||thickstatements.com^
 ||thickticket.com^
 ||thicktrucks.com^
@@ -63288,6 +63310,7 @@
 ||lp.to-lipton.com^
 ||toadcampaignruinous.com^
 ||toaglegi.com^
+||toahicobeerile.com^
 ||toangroi.xyz^
 ||toapz.xyz^
 ||adlc-exchange.toast.com^
@@ -64718,6 +64741,7 @@
 ||twentycustomimprovement.com^
 ||twentydisappearance.com^
 ||twentydruggeddumb.com^
+||twevpgjeai.com^
 ||twewmykfe.com^
 ||twi-hjritecl.world^
 ||go.twi.sm^
@@ -68725,6 +68749,7 @@
 ||metrics.wgu.edu^
 ||smetrics.wgu.edu^
 ||whackresolved.com^
+||whacmoltibsay.net^
 ||whagrolt.com^
 ||whaidree.com^
 ||whaidroansee.net^
@@ -68923,6 +68948,7 @@
 ||widgetbe.com^
 ||widgetbucks.com^
 ||widgetly.com^
+||widiaoexhe.top^
 ||widthovercomerecentrecent.com^
 ||as.wieistmeineip.de^
 ||analytics.wienerberger-building-solutions.com^
@@ -69915,7 +69941,6 @@
 ||d.xapcard.com^
 ||xaprio.net^
 ||xavitithnga.buzz^
-||xavronwave76.site^
 ||xawlop.com^
 ||xaxoro.com^
 ||xaxrtiahkft.com^
@@ -70575,6 +70600,7 @@
 ||www.yabovip2030.com^
 ||yac5t.cn^
 ||1.yac8.net^
+||yackvidette.com^
 ||yacurlik.com^
 ||counter.yadro.ru^
 ||upstats.yadro.ru^
@@ -71923,6 +71949,7 @@
 ||dii4.zooplus.se^
 ||zoopsame.com^
 ||net.zooroyal.de^
+||zoowhausairoun.net^
 ||zoozishooh.com^
 ||v2.zopim.com^
 ||zopuqv.icu^
