@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。
 ! Homepage: https://github.com/Sereinfy/Adblock
 ! Source: https://raw.githubusercontent.com/Sereinfy/Adblock/main/rules/adblockdns.txt
-! Version: 20241227001105
-! Last modified: 2024/12/27 00:11:05
-! Blocked domains: 67424
+! Version: 20241227084418
+! Last modified: 2024/12/27 08:44:18
+! Blocked domains: 67427
 ! unBlocked domains: 52
 !
 ||kwcdn.000dn.com^
@@ -13422,6 +13422,7 @@
 ||cytomecruor.top^
 ||cyuyvjwyfvn.com^
 ||cyvjmnu.com^
+||a1.cyyangqiguan.com^
 ||tracking.service.cz.nl^
 ||tracking.zakelijk.cz.nl^
 ||www.service.cz.nl^
@@ -39409,6 +39410,7 @@
 ||nctwoseln.xyz^
 ||ncubadmavfp.com^
 ||ncukankingwith.info^
+||ncvwnp.icu^
 ||ncwabgl.com^
 ||ncz3u7cj2.com^
 ||nczxuga.com^
@@ -50538,6 +50540,7 @@
 ||a8cv.sabusuta.jp^
 ||install.xchange.sabx.com^
 ||sacedoamte.net^
+||sachaits.com^
 ||s.sachem.ca^
 ||sackbarngroups.com^
 ||sackeelroy.net^
